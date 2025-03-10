@@ -261,7 +261,7 @@ async def upload(bot: Client, m: Message):
 
             except Exception as e:
                 await m.reply_text(
-                    f"**🥺ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ғᴀɪʟᴇᴅ🥺 **\n{str(e)}\n**ɴᴀᴍᴇ** » {name}\n**ʟɪɴᴋ** » `{url}`"
+                    f"**🥺ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ғᴀɪʟᴇᴅ🥺 **\n{str(e)}\n**ɴᴀᴍᴇ** » {name}\n**ʟɪɴᴋ** » \n\n`{url}`"
                 )
                 continue
 
